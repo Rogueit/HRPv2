@@ -1,0 +1,15 @@
+
+{
+  "model_version": "v3.2",
+  "timestamp": "20250611_002155",
+  "features": [
+    "normalize metrics",
+    "form bonus",
+    "workout bonus",
+    "pace setup bonus",
+    "stalker bias bonus",
+    "dominant pace favorite bonus",
+    "layoff penalty",
+    "speed-style combo bonus"
+  ]
+}

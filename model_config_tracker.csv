@@ -1,3 +1,11 @@
 date,version,feature,description,active_in
-2025-06-11,v3.4,Failed Favorite Forgiveness,Allow strong speed/trainer horses to retain high scores even if tagged as 'Failed as favorite',All sprint races with avgSpeed > 70 and trainerScore > 0.7
-2025-06-11,v3.5,Best Dirt Speed + Top Pace Bonus,"Adds a bonus when a horse has 'Best Dirt Speed' and is the early pace leader, provided there are no major negatives.","Dirt sprints (<=6f), Maiden Special Weight or Claiming"
+2025-06-11,v3.7,Turf Pedigree Bonus,"Adds a bonus when the dam has turf winners, regardless of current turf experience.",All turf races
+2025-06-11,v3.7,Relaxed First-Turf Penalty with Pedigree,Reduces penalty for '1st on grass' if dam has turf winners in her record.,Turf races with 1st-time starters or turf debutants
+2025-06-11,v3.8,Trainer/Jockey Rebalance,"Reduced weight of trainer score from 15% to 10%, increased jockey weight from 10% to 15% to reflect tactical importance in pace-sensitive setups.",All races
+2025-06-11,v3.8,Pace Pressure Adjustment Logic,Adds a conditional penalty for horses with high early pace in fields with multiple front-runners.,Sprints and dirt routes with >7 horses
+2025-06-11,v3.9,Elevated Bonus Weight for Sharp Work + Early Speed Style,Increased combined impact of workout and early speed running style bonuses to reflect higher success rate when paired with strong connections.,All sprint and claiming races
+2025-06-11,v3.9,Trainer-Jockey Synergy Recognition,Increases influence of high-performing trainer/jockey combinations that are both top-quartile within the field.,All race types
+2025-06-11,v4.0,Class Drop + Good Trainer Bonus,Adds a bonus when a horse drops in class and has a trainer score above 0.75.,All races
+2025-06-11,v4.0,Turf Debut Pedigree Forgiveness,"Reduces 1st turf penalty if dam has produced turf winners, even when the formal turf pedigree bonus is not triggered.",Turf races
+2025-06-11,v4.1,Third Start Off Layoff Bonus,Adds a bonus for horses making their third start off a layoff if supported by recent improvement or stamina angle.,All races
+2025-06-11,v4.1,Adjusted Pace Pressure Logic for Small Fields,Modifies pace pressure penalty to be less severe when field size is 6 or fewer horses.,"Sprint races, Dirt/Turf"

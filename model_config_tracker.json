@@ -1,0 +1,16 @@
+[
+    {
+        "date": "2025-06-11",
+        "version": "v3.4",
+        "feature": "Failed Favorite Forgiveness",
+        "description": "Allow strong speed/trainer horses to retain high scores even if tagged as 'Failed as favorite'",
+        "active_in": "All sprint races with avgSpeed > 70 and trainerScore > 0.7"
+    },
+    {
+        "date": "2025-06-11",
+        "version": "v3.5",
+        "feature": "Best Dirt Speed + Top Pace Bonus",
+        "description": "Adds a bonus when a horse has 'Best Dirt Speed' and is the early pace leader, provided there are no major negatives.",
+        "active_in": "Dirt sprints (<=6f), Maiden Special Weight or Claiming"
+    }
+]

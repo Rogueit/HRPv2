@@ -1,7 +1,7 @@
 
 {
-  "model_version": "v3.2",
-  "timestamp": "20250611_002155",
+  "model_version": "v3.3",
+  "timestamp": "20250611_004647",
   "features": [
     "normalize metrics",
     "form bonus",
@@ -10,6 +10,7 @@
     "stalker bias bonus",
     "dominant pace favorite bonus",
     "layoff penalty",
-    "speed-style combo bonus"
+    "speed-style combo bonus",
+    "last-out speed + good trainer bonus"
   ]
 }

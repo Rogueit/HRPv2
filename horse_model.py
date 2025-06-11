@@ -51,6 +51,11 @@ def speed_style_combo_bonus(row):
         return 0.04
     return 0
 
+def last_out_speed_good_trainer_bonus(row, trainer_threshold=0.75):
+    if 'Highest last race speed rating' in str(row['PositiveComments']) and row['score_trainer'] >= trainer_threshold:
+        return 0.035
+    return 0
+
 claiming_weights = {
     'speed': 0.25,
     'comp_level': 0.2,
